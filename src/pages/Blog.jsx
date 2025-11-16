@@ -17,10 +17,10 @@ export function Blog() {
   const posts = postsQuery.data ?? []
   return (
     <div style={{ padding: 8 }}>
-      <h1>Welcome to my Blog!</h1>
       <Header />
       <br />
       <hr />
+      <h1>Welcome to my Blog!</h1>
       <CreatePost />
       <br />
       <hr />
